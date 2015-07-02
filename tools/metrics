@@ -1,0 +1,10 @@
+#/bin/bash
+
+set -e;
+
+jsfiles=$(find . -name "*.js" -not -path "./node_modules/*" | wc -l);
+functions=$(find . -name "*.js" -not -path "./node_modules/*" | xargs grep function | wc -l);conditionals=$(find . -name "*.js" -not -path "./node_modules/*" | xargs grep '\(case\|switch\|if[^a-zA-Z]\)' | wc -l)
+
+echo "$jsfiles js files";
+echo "$functions functions";
+echo "$conditionals conditionals";

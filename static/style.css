@@ -1,0 +1,18 @@
+body, html {
+    background: #000;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 3em;
+}
+
+.c1 { color: hsl(040, 100%, 50%) }
+.c2 { color: hsl(080, 100%, 50%) }
+.c3 { color: hsl(120, 100%, 50%) }
+.c4 { color: hsl(160, 100%, 50%) }
+.c5 { color: hsl(200, 100%, 50%) }
+.c6 { color: hsl(240, 100%, 50%) }
+.c7 { color: hsl(280, 100%, 50%) }
+.c8 { color: hsl(320, 100%, 50%) }
+.c9 { color: hsl(000, 100%, 50%) }

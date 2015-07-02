@@ -1,0 +1,12 @@
+{
+        "title": "Turn it on",
+        "events": [
+                {
+                        "data": {
+                                "on": true
+                        },
+                        "time": 1000,
+                        "channel": 1
+                }
+        ]
+}

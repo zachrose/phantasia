@@ -1,0 +1,7 @@
+{
+    "port": 4096,
+    "bridge": {
+        "username": "override with bridge user id",
+        "host": "override with bridge ip"
+    }
+}

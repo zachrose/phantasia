@@ -1,0 +1,9 @@
+npm-debug.log
+node_modules
+
+config/local.json
+data/*
+!data/index.js
+!data/schemas
+
+*.swp
